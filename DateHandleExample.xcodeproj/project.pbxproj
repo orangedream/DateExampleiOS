@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		C26AD0971C666C4D00B2DDB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C26AD0961C666C4D00B2DDB7 /* main.m */; };
 		C26AD09A1C666C4D00B2DDB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C26AD0991C666C4D00B2DDB7 /* AppDelegate.m */; };
-		C26AD09D1C666C4D00B2DDB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26AD09C1C666C4D00B2DDB7 /* ViewController.m */; };
 		C26AD0A01C666C4D00B2DDB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C26AD09E1C666C4D00B2DDB7 /* Main.storyboard */; };
 		C26AD0A21C666C4D00B2DDB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C26AD0A11C666C4D00B2DDB7 /* Assets.xcassets */; };
 		C26AD0A51C666C4D00B2DDB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C26AD0A31C666C4D00B2DDB7 /* LaunchScreen.storyboard */; };
+		C2B75BD81C6A1EBD00CEE530 /* DateHandleExampleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B75BD71C6A1EBD00CEE530 /* DateHandleExampleTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +20,12 @@
 		C26AD0961C666C4D00B2DDB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C26AD0981C666C4D00B2DDB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C26AD0991C666C4D00B2DDB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C26AD09B1C666C4D00B2DDB7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C26AD09C1C666C4D00B2DDB7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C26AD09F1C666C4D00B2DDB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C26AD0A11C666C4D00B2DDB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C26AD0A41C666C4D00B2DDB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C26AD0A61C666C4D00B2DDB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2B75BD61C6A1EBD00CEE530 /* DateHandleExampleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateHandleExampleTableViewController.h; sourceTree = "<group>"; };
+		C2B75BD71C6A1EBD00CEE530 /* DateHandleExampleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateHandleExampleTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +60,13 @@
 			children = (
 				C26AD0981C666C4D00B2DDB7 /* AppDelegate.h */,
 				C26AD0991C666C4D00B2DDB7 /* AppDelegate.m */,
-				C26AD09B1C666C4D00B2DDB7 /* ViewController.h */,
-				C26AD09C1C666C4D00B2DDB7 /* ViewController.m */,
 				C26AD09E1C666C4D00B2DDB7 /* Main.storyboard */,
 				C26AD0A11C666C4D00B2DDB7 /* Assets.xcassets */,
 				C26AD0A31C666C4D00B2DDB7 /* LaunchScreen.storyboard */,
 				C26AD0A61C666C4D00B2DDB7 /* Info.plist */,
 				C26AD0951C666C4D00B2DDB7 /* Supporting Files */,
+				C2B75BD61C6A1EBD00CEE530 /* DateHandleExampleTableViewController.h */,
+				C2B75BD71C6A1EBD00CEE530 /* DateHandleExampleTableViewController.m */,
 			);
 			path = DateHandleExample;
 			sourceTree = "<group>";
@@ -149,8 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C26AD09D1C666C4D00B2DDB7 /* ViewController.m in Sources */,
 				C26AD09A1C666C4D00B2DDB7 /* AppDelegate.m in Sources */,
+				C2B75BD81C6A1EBD00CEE530 /* DateHandleExampleTableViewController.m in Sources */,
 				C26AD0971C666C4D00B2DDB7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +298,7 @@
 				C26AD0AB1C666C4D00B2DDB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

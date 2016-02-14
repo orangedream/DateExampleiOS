@@ -127,11 +127,14 @@
     
     NSDate *date1 = [dateFormatter dateFromString:@"2013/1/30"];
     NSDate *date2 = [dateFormatter dateFromString:@"2016/2/9"];
-    NSTimeInterval secondsBetween = [date2 timeIntervalSinceDate:date1];
+    NSDateComponents *components;
+    NSInteger numberOfDays;
     
-    int numberOfDays = secondsBetween / 86400;
+    components = [[NSCalendar currentCalendar] components: NSCalendarUnitDay
+                                                 fromDate: date1 toDate: date2 options: 0];
+    numberOfDays = [components day];
     
-    NSLog(@"Total days=%d", numberOfDays);
+    NSLog(@"Total days=%ld", numberOfDays);
 }
 - (IBAction)beginOfTodayClicked:(id)sender {
     NSDate *now=[NSDate date];

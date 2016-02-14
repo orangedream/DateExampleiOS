@@ -60,13 +60,13 @@
 			children = (
 				C26AD0981C666C4D00B2DDB7 /* AppDelegate.h */,
 				C26AD0991C666C4D00B2DDB7 /* AppDelegate.m */,
-				C26AD09E1C666C4D00B2DDB7 /* Main.storyboard */,
 				C26AD0A11C666C4D00B2DDB7 /* Assets.xcassets */,
-				C26AD0A31C666C4D00B2DDB7 /* LaunchScreen.storyboard */,
-				C26AD0A61C666C4D00B2DDB7 /* Info.plist */,
-				C26AD0951C666C4D00B2DDB7 /* Supporting Files */,
 				C2B75BD61C6A1EBD00CEE530 /* DateHandleExampleTableViewController.h */,
 				C2B75BD71C6A1EBD00CEE530 /* DateHandleExampleTableViewController.m */,
+				C26AD0A61C666C4D00B2DDB7 /* Info.plist */,
+				C26AD0A31C666C4D00B2DDB7 /* LaunchScreen.storyboard */,
+				C26AD09E1C666C4D00B2DDB7 /* Main.storyboard */,
+				C26AD0951C666C4D00B2DDB7 /* Supporting Files */,
 			);
 			path = DateHandleExample;
 			sourceTree = "<group>";

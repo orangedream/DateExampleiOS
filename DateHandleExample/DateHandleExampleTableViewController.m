@@ -136,6 +136,19 @@
     
     NSLog(@"Total days=%ld", numberOfDays);
 }
+- (IBAction)minutesBetweenClicked:(id)sender {
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setDateFormat:@"HH:mm"];
+    NSDate *date1 = [dateFormatter dateFromString:@"07:09"];
+    NSDate *date2 = [dateFormatter dateFromString:@"23:12"];
+    NSDateComponents *components;
+    NSInteger numberOfMinutes;
+    components = [[NSCalendar currentCalendar] components: NSCalendarUnitMinute fromDate: date1 toDate: date2 options: 0];
+    numberOfMinutes = [components minute];
+    NSLog(@"Total minutes=%ld", numberOfMinutes);
+
+}
+
 - (IBAction)beginOfTodayClicked:(id)sender {
     NSDate *now=[NSDate date];
     NSCalendar *cal=[NSCalendar currentCalendar];
